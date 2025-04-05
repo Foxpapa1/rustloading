@@ -5,71 +5,64 @@
   <meta charset="UTF-8">
   <title>HUN/ENG | 5x | Wipe and Hype</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: url("background.jpg") no-repeat center center fixed;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
       background-size: cover;
-      color: white;
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
       height: 100vh;
-      text-align: center;
-      background-color: #000;
+      color: white;
     }
-
     .overlay {
-      background-color: rgba(0, 0, 0, 0.65);
-      padding: 30px;
-      border-radius: 15px;
-      max-width: 90%;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(6px);
+      padding: 40px 35px;
+      border-radius: 20px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.7);
+      max-width: 800px;
+      width: 90%;
     }
-
     h1 {
-      font-size: 3em;
-      margin-bottom: 0.2em;
+      font-size: 2.8em;
+      margin-bottom: 10px;
     }
-
-    p {
-      font-size: 1.3em;
-      margin: 0.5em 0;
+    p, li {
+      font-size: 1.2em;
+      line-height: 1.6;
     }
-
     .discord-link {
       color: #7289da;
-      font-weight: bold;
       text-decoration: none;
-      font-size: 1.2em;
+      font-weight: bold;
     }
-
-    .rules {
+    ul {
+      list-style: none;
+      padding: 0;
       margin-top: 20px;
-      text-align: left;
     }
-
-    .rules li {
+    ul li {
       margin-bottom: 10px;
-      font-size: 1.1em;
     }
   </style>
 </head>
 <body>
   <div class="overlay">
     <h1>HUN/ENG | 5X | WIPE AND HYPE</h1>
-    <p>Csatlakozz a közösséghez:</p>
-    <a class="discord-link" href="https://discord.gg/rHmCdWm4Zz" target="_blank">discord.gg/rHmCdWm4Zz</a>
-    <div class="rules">
-      <h2>📜 Alapvető szabályok:</h2>
-      <ul>
-        <li>❌ Csalás, makró, exploit – azonnali tiltás</li>
-        <li>✅ Tiszteld a játékostársaidat és az adminokat</li>
-        <li>🎯 Maximum team limit: 6 fő</li>
-        <li>🆘 Gyanús játékos? Írj: <strong>/report</strong> vagy használd az <strong>F7</strong>-et</li>
-        <li>📅 Wipe: kéthetente – kövess minket Discordon az infókért!</li>
-      </ul>
-    </div>
+    <p>Csatlakozz a közösséghez: <a class="discord-link" href="https://discord.gg/rHmCdWm4Zz" target="_blank">discord.gg/rHmCdWm4Zz</a></p>
+    <h2>📜 Alapvető szabályok:</h2>
+    <ul>
+      <li>❌ Csalás, makró, exploit – azonnali tiltás</li>
+      <li>🥲 Tiszteld a játékostársaidat és az adminokat</li>
+      <li>👥 Maximum team limit: 6 fő</li>
+      <li>✅ Gyanús játékos? Írj: /report vagy használd az F7-et</li>
+      <li>🗓️ Wipe: kéthetente – kövess minket Discordon az infókért!</li>
+    </ul>
   </div>
 </body>
 </html>
